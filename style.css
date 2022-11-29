@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('timur.jpg');
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a{
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* teg minalsa plavna */
+    transition: 0.3s;
+    text-decoration: none; 
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* uveliçit bukvı */
+    font-size: 20px;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    box-shadow: 0 0 10px gold;   
+}
+#menu{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+#banner{
+    background-image: url('toyota supra.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+#banner a{
+    margin-bottom: 300px;
+}
+h2{
+    color: rgba(245, 222, 179, 0);
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: rgb(6,255,238);
+background: linear-gradient(328deg, rgba(6,255,238,1) 0%, rgba(255,0,131,1) 100%);
+background: linear-gradient(328deg, rgba(0,41,255,1) 0%, rgba(255,6,113,1) 50%, rgba(255,224,0,1) 100%);
+   background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 300px;
+}
+#banner p{
+    color: white;
+    background: rgb(0,41,255);
+    background: linear-gradient(328deg, rgba(0,41,255,1) 0%, rgba(255,6,113,1) 50%, rgba(255,224,0,1) 100%);
+    width: 60%;
+    margin-left: 40%;
+    padding: 20px;
+    /* ştobı padding ne raşıral teg  */
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 20px coral;
+}
+#buy{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+#Main-information{
+    background-color: white;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    border-radius: 5px;
+}
+#main-image{
+    vertical-align: middle;
+    border-radius: 10px;
+    transition: 1s;
+}
+#main-image:hover{
+    box-shadow: 0 0 30px gold;
+    /* ştobı uviliçet kartinku i efect delat */
+    transform: scale(1.1);   
+}
+
+.title{
+    font-size: 35px;
+    color: white;
+    text-shadow:  0 0 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#vs{
+    color: grey;
+    margin-bottom: 10px;
+}
+.address{
+    background-image: url('dis_kurumsal.jpg');
+    width: 27%;
+    display: inline-block;
+    border-radius: 10px;
+    background-position: top;
+    background-size: cover;
+    box-shadow: 0 0 10px black;
+}
+.address:nth-child(2){
+background-image: url('kale.jpg');
+}
+.address:nth-child(3){
+    background-image:url('fotoraf.webp') ;
+}
+.address h4{
+text-shadow: 0 0 10px black;
+margin-bottom: 20px;
+margin-top: 20px;
+color: white;
+}
+.address ul{
+    background-color: white;
+    list-style: none;
+}
+.address a{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+}
+.address a:hover{
+    background-color: lawngreen;
+}
+.human{
+    box-shadow: 0 0 10px black;
+    width: 25%;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.human img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.human img:hover{
+    box-shadow: 0 0 10px blue;
+}
+#singer{
+    object-position: right;
+}
+.human a{
+    background-color: white;
+    color: #333;
+}
+.human p{
+    /* kkline-height vısota stroçki */
+    line-height: 30px;
+    height: 150px;
+    /* background-color: blue; */
+    /* overflow dabavlayet polosku prokrutke */
+    overflow-y: scroll;
+}
+input{
+    display: block;
+    text-align: center;
+    margin:10px auto;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: none;
+    font-family: 'Silkscreen';
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+input:hover{
+    box-shadow: 0 0 10px red;
+}
+textarea{
+    display: block;
+    margin:10px auto;
+    width: 400px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: none;
+    font-family: 'Silkscreen';
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+button{
+    height: 30px;
+    border-radius: 5px;
+    padding: 0  15px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.289);
+    transition: 0.9s;
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: white;
+}
+@media(max-width:600px){
+    h2{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    #banner p{
+        width: 90%;
+        margin: auto;
+    }
+    #Main-information{
+    background-color: white;
+    /* Чтобы padding не делал больше width */
+    box-sizing: border-box;
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    border-radius: 5px;
+   }
+   #main-image{
+    vertical-align: middle;
+    border-radius: 50px;
+    transition: 1s;
+    width: 90%;
+   }
+   .address{
+    width: 90%;
+    margin-bottom: 20px;
+   }
+   .human{
+    width: 90%;
+   }
+    
+}
