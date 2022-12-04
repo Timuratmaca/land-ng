@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url('timur.jpg');
     font-family: 'Silkscreen', cursive;
@@ -245,6 +248,12 @@ button:hover{
     margin-bottom: 20px;
    }
    .human{
+    width: 90%;
+   }
+   input{
+    width: 90%;
+   }
+   textarea{
     width: 90%;
    }
     
